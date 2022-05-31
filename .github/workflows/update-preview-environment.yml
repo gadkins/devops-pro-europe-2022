@@ -155,7 +155,7 @@ jobs:
           compose-file: 'docker-compose.rendered.yml'
           username: ${{ secrets.UFFIZZI_USERNAME }}
           server: https://app.uffizzi.com/
-          project: default
+          project: ${{ secrets.UFFIZZI_PROJECT }}
           password: ${{ secrets.UFFIZZI_PASSWORD }}
       - name: Check outputs
         run: echo "${{ steps.preview.outputs.id }} at ${{ steps.preview.outputs.url }}"

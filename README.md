@@ -1,3 +1,5 @@
+Testing Uffizzi GHA on Uffizzi Cloud platform.  
+
 Example Voting App
 =========
 
